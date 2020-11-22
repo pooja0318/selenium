@@ -32,11 +32,7 @@ public class MyNewAccountPage extends TestBase{
 	{
 		
 		promocode.sendKeys(pc);
-		 redeemcode.click();
-	
-		
-		
-
+		redeemcode.click();
 	}
 
 }

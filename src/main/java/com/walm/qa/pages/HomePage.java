@@ -19,10 +19,8 @@ public class HomePage extends TestBase{
 	WebElement signout;
 	
 	@FindBy(xpath="/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[5]/a/svg")
-    WebElement cart;	
+    WebElement cart;
 	
-	
-	//initializing the page object
 		public HomePage()
 		{
 			PageFactory.initElements(driver, this); 
@@ -35,7 +33,6 @@ public class HomePage extends TestBase{
 			action.moveToElement(MyAccount).build().perform();
 			Thread.sleep(5000);
 			MyRecom.click();
-			//Thread.sleep(5000);
 			return new RecommendationPage();
 		}
 		public LoginPage clickOnSignOutLink()

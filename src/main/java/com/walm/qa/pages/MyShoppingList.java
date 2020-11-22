@@ -1,7 +1,4 @@
 package com.walm.qa.pages;
-
-//import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.WebElement;
 //import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;

@@ -13,10 +13,6 @@ public class MyListPage extends TestBase{
 	
 	@FindBy(linkText="My lists")
 	WebElement list;
-	
-	
-	
-	//initializing the page object
 		public MyListPage()
 		{
 			PageFactory.initElements(driver, this); 
@@ -31,6 +27,4 @@ public class MyListPage extends TestBase{
 			//Thread.sleep(5000);
 			return new MyShoppingList();
 		}
-
-
 }

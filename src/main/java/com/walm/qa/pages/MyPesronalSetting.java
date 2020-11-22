@@ -30,14 +30,9 @@ public class MyPesronalSetting extends TestBase{
 	public void editButtonClick(String fn,String ln,String pc)
 	{
 		editbutton.click();
-		//phnumber.sendKeys(ph);
 		fname.sendKeys(fn); 
 		lname.sendKeys(ln);
 		postalcode.sendKeys(pc);
 		saveButton.click();
-	
-		
-		
-
 	}
 }

@@ -10,15 +10,12 @@ public class SearchResultPage extends TestBase{
 	@FindBy(tagName="h1")
 	WebElement Searchresulttext;
 	
-	
-	
 	//initializing the page object
 		public SearchResultPage()
 		{
 			PageFactory.initElements(driver, this); 
 			
 		}
-		
 		public String getSearchResultedText()
 		{
 			return Searchresulttext.getText();

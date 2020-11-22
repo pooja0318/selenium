@@ -13,7 +13,6 @@ public class MyAddressPage extends TestBase {
 	WebElement editbutton;
 	@FindBy(id="shipping-first-name")
 	WebElement fname;
-	
 	@FindBy(id="shipping-last-name")
 	WebElement lname;
 	@FindBy(id="shipping-address1")
@@ -24,7 +23,6 @@ public class MyAddressPage extends TestBase {
 	WebElement city;
 	@FindBy(id="shipping-postal-code")
 	WebElement postalcode;
-	
 	@FindBy(id="shipping-phone")
 	WebElement phn;
 	@FindBy(id="save-address-btn")
@@ -39,7 +37,6 @@ public class MyAddressPage extends TestBase {
 	public void editButtonaddClick(String fn,String ln,String addr,String Addres,String ct,String pc,String pn,String pro)
 	{
 		editbutton.click();
-		//phnumber.sendKeys(ph);
 		fname.sendKeys(fn); 
 		lname.sendKeys(ln);
 		add1.sendKeys(addr);
@@ -50,10 +47,6 @@ public class MyAddressPage extends TestBase {
 		postalcode.sendKeys(pc);
 		phn.sendKeys(pn);
 		saveButton.click();
-	
-		
-		
-
 	}
 }
 

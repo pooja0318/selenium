@@ -29,7 +29,6 @@ public class Addresspage extends TestBase{
 			MyAccount.click();
 			Thread.sleep(5000);
 			address.click();
-			//Thread.sleep(5000);
 			return new  MyAddressPage();
 		}
 
